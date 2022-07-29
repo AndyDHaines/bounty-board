@@ -1,25 +1,24 @@
 //Author: Andrew Haines
 
-const val PLAYER_NAME = "Andrew"
-const val PUB_NAME = "The Unicorn's Horn"
+const val HERO_NAME = "Andrew"
 
 fun main() {
-    println("Hello, welcome to the world of Kotlin!")
+    println("The hero announces his presence to the world! ")
 
-    println(PLAYER_NAME)
+    println(HERO_NAME)
     var playerLevel = 4
     println(playerLevel)
 
-    println("You have explored a new topic in Kotlin, your knowledge grows!")
+    if (playerLevel == 1){
+        println("Meet Mr. Bubbles in the land of soft things.")
+    } else {
+        println("Locate the enchanted sword.")
+    }
+
+    println("Time passes.....")
+    println("The hero returns from his quest")
+
     playerLevel++
     println(playerLevel)
-
-    //Challenge Code
-    var hasSteed = false
-    var bartenderOnDuty = "Helga"
-    var playerGoldAmount = 50
-    var barMenuItems = listOf("Mead", "Wine", "LaCroix")
-
-    println("The magic mirror shows your name as ${PLAYER_NAME.reversed()}")
 
 }
