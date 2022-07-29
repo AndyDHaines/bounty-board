@@ -4,7 +4,7 @@ const val PLAYER_NAME = "Andrew"
 const val PUB_NAME = "The Unicorn's Horn"
 
 fun main() {
-    println("Hello, welcome to Kotlin!")
+    println("Hello, welcome to the world of Kotlin!")
 
     println(PLAYER_NAME)
     var playerLevel = 4
