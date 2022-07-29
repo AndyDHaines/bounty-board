@@ -1,3 +1,5 @@
+//Author: Andrew Haines
+
 const val PLAYER_NAME = "Andrew"
 const val PUB_NAME = "The Unicorn's Horn"
 
